@@ -6,32 +6,41 @@ semoga dapat di pelajari
 
 menu yang telah selesai yaitu :
 
- Data Treatment
+ =>Data Treatment
 
- Data Ruangan
+ =>Data Ruangan
  
- Data Produk
+ =>Data Produk
  
- Data paket produk
+ =>Data paket produk
  
- Data sub paket produk
+ =>Data sub paket produk
  
- Data produk Treatment
+ =>Data produk Treatment
  
- Data paket tretment
+ =>Data paket tretment
  
- sub paket treatment
+ =>sub paket treatment
  
- Data member
+ =>Data member
  
- Data non member
+ =>Data non member
  
- <b>Data Karyawan</b>
+ =>Data Karyawan
 
-## Security Vulnerabilities
+ =>Data program bowl
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+ =>Program Happy Hours
 
-## License
+ =>Program Apotek
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+ =>Program Customer Birthday
+
+ =>Paket Promo
+
+
+
+## Website
+
+
+[ITinformasi.com](http://itinformasi.com).
