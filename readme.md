@@ -1,8 +1,8 @@
 # Aplikasi
 
-aplikasi ini di buat menggunakan Laravel Framework 5.2 dan AngularJS v1.4.1
+aplikasi ini di buat dengan menggunakan Laravel Framework 5.2 dan AngularJS v1.4.1
 
-semoga dapat di pelajari
+semoga dapat di pelajari dan dikembangkan
 
 menu yang telah selesai yaitu :
 
