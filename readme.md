@@ -38,7 +38,11 @@ menu yang telah selesai yaitu :
 
  =>Paket Promo
 
+  database aplikasi.sql
 
+  username : admin@gmail.com
+
+  password : aplikasi
 
 ## Website
 
