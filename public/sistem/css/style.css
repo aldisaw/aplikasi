@@ -1,0 +1,220 @@
+/* scroller browser */
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.1); 
+   
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #a6a5a5;
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.1); 
+    width: 5px;
+}
+
+
+#menu_bawah{
+  width: 100%;
+  height: 60px;
+  padding: 0px 10px 0px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#111756+100,2989d8+100,207cca+100,0c051c+100,111756+100,207cca+101,2989d8+102 */
+  background: white; /* Old browsers */
+  font-family: Arial;
+  font-size: 14px;
+  
+}
+
+.isi_konten{
+  float: right;
+  width: 100%;
+  height: 600px;
+  margin: 0px 3px 0px;
+  background: white;
+  font-size:12px;
+  
+}
+
+
+#konten_kanan{
+  float: right;
+  width: 82.5%;
+  height: 600px;
+  margin: 0px -3px 0px;
+  overflow:auto;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#11205b+31,1b4c91+99,1b4c91+99,7db9e8+100 */
+  background: rgb(17,32,91); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(17,32,91,1) 31%, rgba(27,76,145,1) 99%, rgba(27,76,145,1) 99%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(17,32,91,1) 31%,rgba(27,76,145,1) 99%,rgba(27,76,145,1) 99%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(17,32,91,1) 31%,rgba(27,76,145,1) 99%,rgba(27,76,145,1) 99%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#11205b', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+}
+
+#konten_kanan_isi{
+  float: right;
+  width: 100%;
+  height: 580px;
+  margin: 0px 3px 0px;
+  
+  overflow:auto;
+}
+#konten_kiri{
+  float: left;
+  width: 17.5%;
+  height: 600px;
+  background: white; /* Old browsers */
+  border-top: 2px solid rgba(27,76,145,1);
+  
+  
+}
+#footer{
+  float: right;
+  width: 100%;
+  height: 20px;
+  background: rgb(9, 6, 53);
+  
+}
+.isi_menu{
+  float: left;
+  width: 90px;
+  height: 60px;
+  margin: 0px 10px 0px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.isi_menu:hover{
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: rgb(251,131,250); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(251,131,250,1) 0%, rgba(233,60,236,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(251,131,250,1)), color-stop(100%,rgba(233,60,236,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(251,131,250,1) 0%,rgba(233,60,236,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(251,131,250,1) 0%,rgba(233,60,236,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(251,131,250,1) 0%,rgba(233,60,236,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(251,131,250,1) 0%,rgba(233,60,236,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb83fa', endColorstr='#e93cec',GradientType=0 ); /* IE6-9 */
+}
+.isi_menu:active{
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: rgb(251,131,250); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(251,131,250,1) 0%, rgba(233,60,236,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(251,131,250,1)), color-stop(100%,rgba(233,60,236,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(251,131,250,1) 0%,rgba(233,60,236,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(251,131,250,1) 0%,rgba(233,60,236,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(251,131,250,1) 0%,rgba(233,60,236,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(251,131,250,1) 0%,rgba(233,60,236,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb83fa', endColorstr='#e93cec',GradientType=0 ); /* IE6-9 */
+}
+
+
+.th {
+
+    font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    color: #4f6b72;
+    border-right: 1px solid #C1DAD7;
+    border-bottom: 1px solid #C1DAD7;
+    border-top: 1px solid #C1DAD7;
+    border-left: 1px solid #C1DAD7;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 6px 6px 6px 12px;
+    background: #CAE8EA url(bg_header.jpg) no-repeat;
+}
+
+
+#td {
+    border-left: 1px solid #C1DAD7;
+    border-right: 1px solid #C1DAD7;
+    border-bottom: 1px solid #C1DAD7;
+    background: #fff;
+    padding: 6px 6px 6px 12px;
+    color: #4f6b72;
+}
+#formasas{
+  float: left;
+  width: 43%;
+  height: auto;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 0px solid #000000;
+  background: white;
+  margin: 10px 10px 10px;
+  border-top: 4px solid green;
+  border-left: 1px solid #D8D7D7;
+  border-right: 1px solid #D8D7D7;
+  border-bottom: 1px solid #D8D7D7;
+  padding: 10px 10px 10px;
+  font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+#list{
+  float: left;
+  width: 99%;
+  height: auto;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 0px solid #000000;
+  background: white;
+  margin: 10px 10px 10px;
+  border-top: 4px solid green;
+  border-left: 1px solid #D8D7D7;
+  border-right: 1px solid #D8D7D7;
+  border-bottom: 1px solid #D8D7D7;
+  padding: 10px 10px 10px;
+  font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+
+}
+#log{
+  float: left;
+  width: 99%;
+  height: 140px;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 0px solid #000000;
+  background: white;
+  margin: 10px 10px 10px;
+  border-top: 4px solid green;
+  border-left: 1px solid #D8D7D7;
+  border-right: 1px solid #D8D7D7;
+  border-bottom: 1px solid #D8D7D7;
+  padding: 10px 10px 10px;
+  font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+
+}
+.isi_div{
+  width: auto;
+  height: auto;
+  padding: 10px 10px 10px;
+  background: #00a65a;
+}
+.isi_divda{
+  width: auto;
+  height: auto;
+  padding: 10px 10px 10px;
+  background:white;
+}
+.tinggi{
+  height: 20px;
+}
+
+#formasasfg{
+    float: left;
+    width: 100%;
+    height: 460px;
+    
+    overflow:auto;
+    font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
