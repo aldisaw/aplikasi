@@ -228,7 +228,7 @@
             <table width="99%" border="0" style='' style="background:white;" bgcolor=white>
                 <tr>
                     <td><div class="judul">
-                          <font size="4" face=arial color="white"><marquee>Sistem Informasi Aurellyn Clinic Version 1.4, AURELLYN CLINIC BEDAH ESTETIKA. aesthetics and surgary</marquee>
+                          
                         </div>
             </table>
             <br><br><br>

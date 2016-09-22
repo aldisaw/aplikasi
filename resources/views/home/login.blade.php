@@ -26,6 +26,6 @@
             <span class="state">Log in</span>
         </button>
     </form>
-    <h1 align=center>AURELLYN CLINIC BEDAH ESTETIKA.</h1>
-    <h1 align=center>aesthetics and surgary</h1>          
+    <h1 align=center>APLIKASI PENJUALAN</h1>
+           
 </div>
