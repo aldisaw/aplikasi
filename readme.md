@@ -2,6 +2,8 @@
 
 aplikasi ini di buat dengan menggunakan Laravel Framework 5.2 dan AngularJS v1.4.1
 
+PHP support : PHP >= 5.5.9
+
 semoga dapat di pelajari dan dikembangkan
 
 menu yang telah selesai yaitu :
